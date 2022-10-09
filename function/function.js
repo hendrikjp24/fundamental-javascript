@@ -1,6 +1,6 @@
 function hitungVolumeKubus(a,b){
-    var volumeA = a*a*a;
-    var volumeB = b*b*b;
+    var volumeA = a**3;
+    var volumeB = b**3;
 
     return volumeA + volumeB;
 }
