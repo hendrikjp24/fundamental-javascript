@@ -2,8 +2,8 @@ var arr = [1,2,3,6,8,4,8];
 
 // 8.forEach => digunakan untuk melakukan perulangan pada setiap nilai/isi didalam sebuah array
 console.log("Array.forEach()");
-arr.forEach((e)=>{
-    console.log(e);
+arr.forEach((e,i)=>{
+    console.log(`Nilai index ke-${i + 1} adalah ${e}`);
 });
 
 
